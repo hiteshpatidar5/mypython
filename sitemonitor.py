@@ -104,4 +104,4 @@ if __name__ == '__main__':
     periodic(scheduler, interval, test, site_url)
 
     t = threading.Thread(target=scheduler.run)
-t.start(
+t.start()
